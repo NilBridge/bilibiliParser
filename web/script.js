@@ -1,5 +1,5 @@
 function parseDownloadUrl(bvid) {
-    return axios(`http://127.0.0.1:12345/download/${bvid}`);
+    return axios(`http://mc.lition.online:3999/download/${bvid}`);
 }
 
 function onClick() {
